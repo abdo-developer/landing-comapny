@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="utf-8">
+        <title>صفحة هبوط لشركة</title>
+        <meta name="description" content="هذه صفحة هبوط لشركة">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--شيفرات الـ سي اس اس-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="assest/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <!--شعار الموقع-->
+        <nav class="navbar navbar-toggleable-sm fixed-top" id="navBar">
+            <div class="container">
+            <!--فتح قائمة التنقل وإغلاقها في الهواتف الصغيرة-->
+                <button class="navbar-toggler navbar-toggler-left" type="button" 
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-expanded="false">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </button>
+                <a class="navbar-brand scroll" href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+        <!--قائمة التنقل-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link scroll" href="#services">
+                    خدمات الشركة
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#gallery">
+                    المشاريع السابقة
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#statistics">
+                    إحصائيات الشركة
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#contacts">
+                    تواصل معنا
+                </a>
+            </li>
+        </ul>
+        </div>
+            </div>
+            </nav>
+
+        <!--عرض الشرائح في الصفحة-->
+        <header>
+            <div class="overlay">
+                <div class="container-fluid">
+                    <div class="slider">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <h3>
+                                            مولد النصوص العربي
+                                        </h3>
+                                        <a class="scroll" href="#gallery">
+                                            تصفح أعمالنا
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <h3>
+                                            العربي للمبرمج
+                                        </h3>
+                                        <a class="scroll" href="#contacts">
+                                            تواصل معنا
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>        
+
+        <!--خدمات الشركة-->
+        <section class="services" id="services">
+            <div class="title text-center">
+                <h2>
+                    خدمات شركتنا
+                </h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--الخدمة الأولى-->
+                    <div class="col-md">
+                        <div class="card text-center">
+                            <img src="images/feature-1.png" alt="card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">
+                                    تصميم المواقع 
+                                </h4>
+                                <p class="card-text">
+                                    هذا النص يعرض فقط التصميم وشكل الصفحة ولا مشاحة في المحتوى المعروض فيها
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--الخدمة الثانية-->
+                    <div class="col-md">
+                        <div class="card text-center">
+                            <img src="images/feature-2.png" alt="card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">
+                                    برمجة مواقع الويب 
+                                </h4>
+                                <p class="card-text">
+                                    هذا النص يعرض فقط التصميم وشكل الصفحة ولا مشاحة في المحتوى المعروض فيها
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--الخدمة الثالثة-->
+                    <div class="col-md">
+                        <div class="card text-center">
+                            <img src="images/feature-3.png" alt="card image cap">
+                            <div class="card-block">
+                                <h4 class="card-title">
+                                    إنتاج المحتوى المرئي 
+                                </h4>
+                                <p class="card-text">
+                                    هذا النص يعرض فقط التصميم وشكل الصفحة ولا مشاحة في المحتوى المعروض فيها
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--أعمال الشركة-->
+        <section class="gallery" id="gallery">
+            <div class="title text-center">
+                <h2>
+                    أعمال شركتنا
+                </h2>
+            </div>
+            <div class="work-gallery">
+            <!--العمود الأول للصور-->
+                <div class="row no-gutters">
+                    <div class="col-md row no-gutters">
+                        <div class="col-sm">
+                            <a href="#image-1">
+                                <img src="images/gallery/small-1.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <!-- 1 تفاصيل المشروع عند الضغط على الصورة-->
+                            <div class="overlay-gallery row" id="image-1">
+                                <div class="col-sm">
+                                    <img src="images/gallery/1.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm">
+                            <a href="#image-2">
+                                <img src="images/gallery/small-2.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <!-- 2 تفاصيل المشروع عند الضغط على الصورة-->
+                            <div class="overlay-gallery row" id="image-2">
+                                <div class="col-sm">
+                                    <img src="images/gallery/2.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md row no-gutters">
+                        <div class="col-sm">
+                            <a href="#image-3">
+                                <img src="images/gallery/small-3.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-3">
+                                <div class="col-sm">
+                                    <img src="images/gallery/3.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <a href="#image-4">
+                                <img src="images/gallery/small-4.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-4">
+                                <div class="col-sm">
+                                    <img src="images/gallery/4.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--العمود الثاني للصور-->
+                <div class="row no-gutters">
+                    <div class="col-md row no-gutters">
+                        <div class="col-sm">
+                            <a href="#image-5">
+                                <img src="images/gallery/small-5.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-5">
+                                <div class="col-sm">
+                                    <img src="images/gallery/5.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <a href="#image-6">
+                                <img src="images/gallery/small-6.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-6">
+                                <div class="col-sm">
+                                    <img src="images/gallery/6.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md row no-gutters">
+                        <div class="col-sm">
+                            <a href="#image-7">
+                                <img src="images/gallery/small-7.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-7">
+                                <div class="col-sm">
+                                    <img src="images/gallery/7.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <a href="#image-8">
+                                <img src="images/gallery/small-8.jpg" alt="gallery img" class="img-fluid">
+                                <div class="hover">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                            <div class="overlay-gallery row" id="image-8">
+                                <div class="col-sm">
+                                    <img src="images/gallery/8.jpg" alt="gallery image">
+                                </div>
+                                <div class="col-sm gallery-text">
+                                    <h3>
+                                        تصميم فيديو لشركة تطوير
+                                    </h3>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe photoshop CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe After Effects CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Prémiere CC ,
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href=""> 
+                                                Adobe Animate CC ,
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن
+                                        يبدو وكأنه نص منسوخ، غير منظم، 
+                                        غير منسق، أو حتى غير مفهوم. 
+                                        لأنه مازال نصاً بديلاً ومؤقتاً.
+                                    </p>
+                                    <a href="#" class="visit">
+                                        زيارة المشروع
+                                    </a>
+                                    <a href="#page" class="close">&#215;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--إحصائيات الشركة-->
+        <section class="statistics" id="statistics">
+            <div class="overlay">
+                <div class="conatainer">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stat text-center">
+                                <img src="images/icon1.png" alt="icon">
+                                <div class="count">
+                                    <span class="timer"
+                                    data-from="100"
+                                    data-to="375"
+                                    data-speed="4000"
+                                    data-refresh-interval="1"
+                                ></span>
+                                </div>
+                                <p>
+                                    موقع إلكتروني
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stat text-center">
+                                <img src="images/icon2.png" alt="icon">
+                                <div class="count">
+                                    <span class="timer"
+                                    data-from="250"
+                                    data-to="575"
+                                    data-speed="4000"
+                                    data-refresh-interval="1"
+                                ></span>
+                                </div>
+                                <p>
+                                    تطبيق موبايل
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stat text-center">
+                                <img src="images/icon3.png" alt="icon">
+                                <div class="count">
+                                    <span class="timer"
+                                    data-from="75"
+                                    data-to="246"
+                                    data-speed="4000"
+                                    data-refresh-interval="1">
+                                </span>
+                                </div>
+                                <p>
+                                    عميل
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stat text-center">
+                                <img src="images/icon4.png" alt="icon">
+                                <div class="count">
+                                    <span class="timer"
+                                    data-from="30"
+                                    data-to="133"
+                                    data-speed="4000"
+                                    data-refresh-interval="1"
+                                 ></span>
+                                </div>
+                                <p>
+                                    محتوى مرئي
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- تواصل معنا ـ خريطة تفاعلية وفروع الشركة-->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div id="map" class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27546.23871476041!2d-5.860829789638684!3d30.34299592049728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbc36ea58680e95%3A0x75e9e9fb616de232!2sZagora!5e0!3m2!1sfr!2sma!4v1597432076280!5m2!1sfr!2sma" width="560" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="info">
+                            <h3>
+                                فروع شركتنا
+                            </h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    المغرب، مدينة زاكورة - شركة للأعمال الإلكترونية
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    المغرب، مدينة زاكورة - شركة لتنفيذ المشاريع الكبرى
+                                </li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+        <!-- تواصل معنا ـ نموذج إرسال رسالة-->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="form">
+                            <h3>
+                                تواصل معنا
+                            </h3>
+                            <form action="" class="cmxform row" id="commentForm">
+                                    <div class="form-group col-sm-6">
+                                        <input type="text" id="cname" name="name" minlength="3" class="form-control" placeholder="الاسم الكامل ..." required>
+                                    </div>
+                                <div class="form-group col-sm-6">
+                                    <input type="email" id="cemail" name="email" class="form-control" placeholder="البريد الإلكتروني ..." required>
+                                </div>
+                                    <div class="form-group col-sm-12">
+                                        <textarea class="form-control" name="ccomment" maxlength="250" id="ccomment" placeholder="نص الرسالة ... " required></textarea>
+                                    </div>
+                                <div class="form-group col-sm-6">
+                                <button type="submit" name="submit" class="sumbit form-submit" value="Sumbit">
+                                    أرسل
+                                </button>
+                                <button type="reset" name="reset" class="resst form-rese" value="reset">
+                                    إفراع الحقول
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--تذييل الصفحة-->
+        <footer>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <h3>
+                                عن شركتنا
+                            </h3>
+                            <p>
+                                الغاية من الصفحة هي عرض التصميم ولا مشاحة في الفقرات الموجودة فيها 
+                                الغاية من الصفحة هي عرض التصميم ولا مشاحة في الفقرات الموجودة فيها 
+                            </p>
+                            <ul class="social list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md responsive-phone">
+                            <h3>
+                                اتصل بالشركة
+                            </h3>
+                            <ul class="contact-us list-unstyled">
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        المغرب، مدينة  زاكورة، شركة المبرمجين 
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    2126-33-33-33-33+
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    info@domain.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <p>
+                    &copy; جميع الحقوق محفوظة لـ 
+                    <a href="https://mostaql.com/u/Abdo_Free" target="_blank">Abdo-developer</a>
+                </p>
+            </div>
+        </footer>
+
+        <!--شيفرات الجافا سكربت-->
+        <script src="assest/Jquery-3.5.1/Jquery-3.5.1.js"></script>
+        <script src="assest/countTo/jquery.countTo.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="assest/jquery-validate/jquery.validate.min.js"></script>
+        <script src="assest/jquery-validate/messages_ar.min.js"></script>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
