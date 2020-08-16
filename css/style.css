@@ -1,11 +1,11 @@
-@font-face{
+@font-face {
     font-family: sky-bold;
     src: url(../fonts/sky-bold.ttf);
 }
 
-body,
-html {
-	overflow-x: hidden; /* يقوم هذا الأمر بإخفاء الزيادات الغير مرغوب بها*/
+body, html {
+    overflow-x: hidden;
+    /* يقوم هذا الأمر بإخفاء الزيادات الغير مرغوب بها*/
 }
 
 body {
@@ -14,6 +14,7 @@ body {
     direction: rtl;
     font-family: sky-bold;
 }
+
 /* تنسيق الهيدر العلوي */
 
 header {
@@ -24,10 +25,7 @@ header {
 }
 
 header .overlay {
-    background: linear-gradient( to right, 
-    rgba(41, 153, 155, 0.8) 0%, 
-    rgba(167, 173, 44, 0.8) 100%
-        );
+    background: linear-gradient( to right, rgba(41, 153, 155, 0.8) 0%, rgba(167, 173, 44, 0.8) 100%);
     height: 100vh;
 }
 
@@ -35,7 +33,7 @@ header .overlay {
 
 nav.navbar ul.navbar-nav {
     padding-right: 0;
-} 
+}
 
 nav.navbar ul.navbar-nav li a.nav-link {
     color: white;
@@ -46,9 +44,7 @@ nav.navbar ul.navbar-nav li a.nav-link {
     transition: all 0.5s ease;
 }
 
-nav.navbar ul.navbar-nav li a.nav-link:hover,
-nav.navbar ul.navbar-nav li a.nav-link:active 
-{
+nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link:active {
     color: rgb(5, 184, 166);
     background-color: rgb(231, 231, 231);
 }
@@ -58,12 +54,10 @@ nav.navbar .navbar-brand img {
 }
 
 nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
-     color: rgb(10, 114, 139);
+    color: rgb(10, 114, 139);
 }
 
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover,
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active
-{
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
     color: black;
     background-color: rgba(23, 179, 163, 0.87);
 }
@@ -77,7 +71,8 @@ nav.navbar.noTransparrent {
     border-bottom: 1px solid rgb(184, 183, 183);
 }
 
-/* تنسيق قائمة فتح وإغلاق قائمة التنقل*/ 
+/* تنسيق قائمة فتح وإغلاق قائمة التنقل*/
+
 nav.navbar button.navbar-toggler {
     margin: 30px auto;
     transition: all 1s ease;
@@ -92,6 +87,7 @@ nav.navbar.noTransparrent button.navbar-toggler span {
 }
 
 /* تنسيق عرض الشرائح*/
+
 header .overlay .slider .carousel-inner .carousel-item {
     min-height: 100vh;
     opacity: 0;
@@ -108,7 +104,6 @@ header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption 
 header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption h3 {
     font-size: 40px;
     line-height: 60px;
-
 }
 
 header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
@@ -139,8 +134,7 @@ header .overlay .slider .carousel-inner .carousel-item .carousel-caption a:hover
     transition: all 0.5s ease;
 }
 
-header .overlay .slider .carousel-control-prev i,
-header .overlay .slider .carousel-control-next i {
+header .overlay .slider .carousel-control-prev i, header .overlay .slider .carousel-control-next i {
     border: 2px solid #ffffff;
     border-radius: 2px;
     padding: 30px 20px;
@@ -191,7 +185,6 @@ section.services .card .card-block h4 {
     line-height: 35px;
 }
 
-
 section.services .card .card-block p {
     font-size: 15px;
     line-height: 20px;
@@ -199,7 +192,6 @@ section.services .card .card-block p {
     opacity: 0;
     transition: all 1s ease;
 }
-
 
 section.services .card:hover .card-block p {
     opacity: 1;
@@ -347,6 +339,7 @@ section.statistics .overlay .stat p {
 }
 
 /* تنسيق العداد */
+
 section.statistics .overlay .stat .count {
     font-size: 40px;
     line-height: 60px;
@@ -400,8 +393,7 @@ section.contacts .form h3 {
     margin: 50px auto 20px;
 }
 
-section.contacts .form form input,
-section.contacts .form form textarea {
+section.contacts .form form input, section.contacts .form form textarea {
     background-color: rgba(199, 197, 197, 0.5);
     border: 2px solid rgb(170, 170, 170);
     border-radius: 3px;
@@ -439,6 +431,7 @@ section.contacts .form-group {
 }
 
 /* تنسيق رسائل الخطأ */
+
 section.contacts .form form .error {
     color: red;
 }
@@ -449,7 +442,6 @@ footer .top-footer {
     background-color: black;
     padding: 80px 0;
 }
-
 
 footer .top-footer h3 {
     font-size: 30px;
@@ -477,6 +469,7 @@ footer .top-footer p {
 }
 
 /* تنسيق روابط التواصل الاجتماعي */
+
 footer .top-footer ul {
     padding: 0;
 }
@@ -502,6 +495,7 @@ footer .top-footer ul li a:hover i {
 }
 
 /*تنسيق ـ اتصل بالشركة*/
+
 footer .top-footer ul.contact-us li {
     margin-bottom: 25px;
     font-size: 18px;
@@ -512,7 +506,7 @@ footer .top-footer ul.contact-us li:last-of-type {
     margin-bottom: 0;
 }
 
-footer .top-footer ul.contact-us li  i {
+footer .top-footer ul.contact-us li i {
     width: 35px;
     height: 35px;
     text-align: center;
@@ -524,6 +518,7 @@ footer .top-footer ul.contact-us li  i {
 }
 
 /* تنسق جميع الحقوق محفوظة */
+
 footer .copyright {
     background-color: #111111;
 }
@@ -547,188 +542,152 @@ footer .copyright p a:hover {
 }
 
 /*ضبط الصفحة مع الآجهزة اللوحية*/
+
 @media (max-width: 991px) {
     nav.navbar ul.navbar-nav li a.nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
-
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
         bottom: 33%;
     }
-
     section.services .card {
         height: 290px;
     }
-
     .card-block {
         padding: 0.5rem;
     }
-
     section.contacts .info {
         margin-right: 90px;
     }
-
     section.contacts .map {
         margin-right: 75px;
     }
-
     section.contacts .form form button {
         margin-top: 10px;
     }
-
 }
 
 /*ضبط قياسات الأجهزة المحمولة*/
-@media (max-width: 767px ) {
+
+@media (max-width: 767px) {
     .navbar {
         padding: .5rem 0rem;
     }
-
     nav.navbar .container {
         width: 100%;
     }
-
     nav.navbar .navbar-brand img {
         width: 70%;
     }
-
     nav.navbar .navbar-collapse {
         background-color: teal;
     }
-
     nav.navbar ul.navbar-nav li a.nav-link {
         padding-right: 2.5rem;
     }
-
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
         bottom: 40%;
     }
-
-    header .overlay .slider .carousel-control-prev,
-    header .overlay .slider .carousel-control-next {
+    header .overlay .slider .carousel-control-prev, header .overlay .slider .carousel-control-next {
         margin-bottom: 70px;
     }
-
     nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
         background-color: white;
     }
-
     section.gallery .work-gallery .overlay-gallery .gallery-text h3 {
         font-size: 20px;
         line-height: 35px;
         margin-bottom: 5px;
     }
-
     section.gallery .work-gallery .overlay-gallery .gallery-text p {
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 25px;
     }
-
     section.gallery .work-gallery .overlay-gallery img {
         width: 95%;
         margin-top: 115px;
     }
-
     section.gallery .work-gallery .overlay-gallery .gallery-text a.visit {
         font-size: 18px;
         line-height: 40px;
     }
-
     section.contacts .info {
         margin-right: 75px;
     }
-
     section.contacts .info h3 {
         margin-right: 140px;
         font-size: 30px;
         line-height: 40px;
     }
-
     section.contacts .map {
         margin-right: -10px;
     }
-
     section.contacts .cmxform {
         width: 100%;
     }
-
     section.contacts .form-group {
         display: grid;
     }
-        footer .top-footer .responsive-phone {
-            margin-top: 25px;
-        }
+    footer .top-footer .responsive-phone {
+        margin-top: 25px;
+    }
+    section.contacts .info ul {
+        margin-top: 35px;
+    }
+    section .form {
+        margin-top: -30px;
+    }
+    section.contacts .info h3 {
+        margin-right: 120px;
+    }
+    section.contacts .form h3 {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+}
 
-        section.contacts .info ul {
-            margin-top: 35px;
-        }
+/*تنسيق على الشاشات الصغيرة جداً*/
 
-        section .form {
-            margin-top: -30px;
-        }
-
-        section.contacts .info h3 {
-            margin-right: 120px;
-        }
-
-        section.contacts .form h3 {
-            font-size: 30px;
-            margin-right: 25px;
-        }
-    }    
-
-        /*تنسيق على الشاشات الصغيرة جداً*/
 @media (max-width: 575px) {
-    header .overlay .slider .carousel-control-prev,
-    header .overlay .slider .carousel-control-next {
+    header .overlay .slider .carousel-control-prev, header .overlay .slider .carousel-control-next {
         display: none;
-    }    
-
+    }
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
         left: 2%;
         right: 2%;
     }
-
     section.services .card {
         margin-top: 20px;
     }
-
-    .work-gallery .col-md > .col-sm > a {
+    .work-gallery .col-md>.col-sm>a {
         display: block;
     }
-
-    .work-gallery .col-md > .col-sm > a img {
+    .work-gallery .col-md>.col-sm>a img {
         width: 100%;
     }
-
     section.gallery .work-gallery .overlay-gallery .gallery-text p {
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
     }
-
     section.gallery .work-gallery .overlay-gallery .gallery-text {
         margin-top: 185px;
     }
-
     section.gallery .work-gallery .overlay-gallery img {
         width: 35%;
         margin-top: 100px;
         margin-bottom: -170px;
     }
-    
     section.gallery .work-gallery .overlay-gallery a.close {
         top: -75%;
         right: 100%;
         font-size: 35px;
     }
-
     section.contacts .info ul li {
         margin-right: -50px;
     }
-
     section.contacts .form form button {
         background-color: goldenrod;
         font-family: sky-bold;
@@ -743,7 +702,126 @@ footer .copyright p a:hover {
     }
 }
 
-    
+/*ضبط الصفحة مع الشاشات الأًصغر حجماً*/
 
+@media(max-width: 320px) {
+    header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption h3 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    section.services .title h2 {
+        font-size: 30px;
+        line-height: 0px;
+    }
+    section.gallery .title h2 {
+        font-size: 30px;
+        line-height: 0;
+    }
+    section.gallery .work-gallery a {
+        font-size: 14px;
+    }
+    section.gallery .work-gallery .overlay-gallery img {
+        width: 35%;
+        margin-top: 120px;
+        margin-bottom: -190px;
+    }
+    section.gallery .work-gallery .overlay-gallery a.close {
+        top: -35%;
+        right: 100%;
+        font-size: 25px;
+    }
+    .work-gallery .col-md>.col-sm>a img {
+        width: 100%;
+    }
+    section.contacts iframe {
+        width: 100%;
+    }
+    section.contacts .info h3 {
+        margin-right: 20px;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+    section.contacts .info ul li {
+        margin-right: -131px;
+    }
+    section.contacts .form h3 {
+        font-size: 24px;
+        margin-right: 25px;
+    }
+    section.contacts .form form button {
+        width: 51%;
+    }
+    footer .copyright p {
+        font-size: 14px;
+    }
+    nav.navbar .navbar-brand img {
+        width: 50%;
+    }
+    nav.navbar button.navbar-toggler span {
+        margin-top: -30px;
+    }
+    nav.navbar.noTransparrent .navbar-brand img {
+        width: 50%;
+    }
+    nav.navbar.noTransparrent button.navbar-toggler span {
+        margin-top: -30px;
+    }
+}
 
+/*ضبط الصفحة مع الشاشات الصغيرة جداً*/
 
+@media(max-width: 275px) {
+    section.gallery .work-gallery .overlay-gallery img {
+        margin-top: 0;
+    }
+    section.gallery .work-gallery .overlay-gallery .gallery-text h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    section.gallery .work-gallery .overlay-gallery .gallery-text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    section.gallery .work-gallery .overlay-gallery img {
+        width: 50%;
+        margin-top: 90px;
+    }
+    section.gallery .work-gallery .overlay-gallery .gallery-text a.visit {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    section.gallery .work-gallery .overlay-gallery .gallery-text a.visit {
+        border-radius: 10px;
+    }
+    section.gallery .work-gallery .overlay-gallery a.close {
+        top: -40%;
+        right: 95%;
+    }
+    header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption h3 {
+        font-size: 25px;
+    }
+    section.contacts .map {
+        margin-right: 0px;
+        width: 100%;
+    }
+    section.contacts .info h3 {
+        margin-right: -10px;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    section.contacts .info ul li {
+        margin-right: -135px;
+    }
+    section.contacts .form form button {
+        width: 50%;
+    }
+    section .form {
+        margin-top: -45px;
+    }
+    footer .copyright p {
+        font-size: 13px;
+    }
+}
